@@ -1,0 +1,11 @@
+public static class LimelightConstants {
+        public static final double LIMELIGHT_CORRECTION_FACTOR = 0.02;
+        public static final double LIMELIGHT_ERROR_THRESHOLD = 1.0;
+        public static final String LIME_CAMERA_NAME = "limelight"; // Nome padrão da câmera Limelight
+        public static final int[] APRILTAG_IDS = {11}; // IDs das tags que deseja rastrear
+        public static final double LIME_DOWNSCALING = 0.5; // Fator de downscaling da câmera (ajuste conforme necessário)
+    
+        // Velocidades para os comandos automáticos
+        public static final double BASE_SPEED = -0.5;
+        public static final double TURN_ADJUSTMENT = 0.1;
+    }
